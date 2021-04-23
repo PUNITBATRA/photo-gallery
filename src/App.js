@@ -12,6 +12,21 @@ function App() {
       <UploadForms />
       <ImageGrid setSelected={setSelected} />
       {selected && <Modal selected={selected} setSelected={setSelected} />}
+      <footer
+        style={{
+          textAlign: "center",
+          backgroundColor: "DarkSalmon",
+          color: "white",
+        }}
+      >
+        <p>
+          Made By <a href="http://punitbatra.co/">Punit</a>
+        </p>
+        <p>
+          View at
+          <a href="https://github.com/PUNITBATRA/photo-gallery"> Github</a>
+        </p>
+      </footer>
     </div>
   );
 }
