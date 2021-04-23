@@ -9,6 +9,7 @@
     "firebase": "^8.4.1",
     "framer-motion": "^4.1.4",
     "react": "^16.13.1",
+    "react-dark-theme": "^1.1.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
